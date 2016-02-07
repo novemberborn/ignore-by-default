@@ -29,6 +29,6 @@
   "homepage": "https://github.com/novemberborn/ignore-by-default#readme",
   "devDependencies": {
     "figures": "^1.4.0",
-    "standard": "^5.4.1"
+    "standard": "^6.0.2"
   }
 }
