@@ -7,7 +7,7 @@
     "index.js"
   ],
   "scripts": {
-    "test": "standard && node test.js"
+    "test": "as-i-preach && node test.js"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/novemberborn/ignore-by-default#readme",
   "devDependencies": {
-    "figures": "^1.4.0",
-    "standard": "^6.0.4"
+    "@novemberborn/as-i-preach": "^2.0.1",
+    "figures": "^1.4.0"
   }
 }
