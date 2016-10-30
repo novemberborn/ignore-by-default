@@ -30,5 +30,11 @@
   "devDependencies": {
     "@novemberborn/as-i-preach": "^5.0.0",
     "figures": "^1.4.0"
+  },
+  "greenkeeper": {
+    "ignore": [
+      "@novemberborn/as-i-preach",
+      "figures"
+    ]
   }
 }
