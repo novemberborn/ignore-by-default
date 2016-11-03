@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/novemberborn/ignore-by-default#readme",
   "devDependencies": {
-    "@novemberborn/as-i-preach": "^5.0.0",
+    "@novemberborn/as-i-preach": "^6.1.0",
     "figures": "^1.4.0"
   },
   "greenkeeper": {
