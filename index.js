@@ -7,6 +7,8 @@ exports.directories = function () {
     '.sass-cache', // Cache folder for node-sass, see <https://github.com/sass/node-sass>
     'bower_components', // Where Bower packages are installed, see <http://bower.io/>
     'coverage', // Standard output directory for code coverage reports, see <https://github.com/gotwarlost/istanbul>
-    'node_modules' // Where Node modules are installed, see <https://nodejs.org/>
+    'node_modules', // Where Node modules are installed, see <https://nodejs.org/>
+    'test/fixtures', // Test fixtures
+    'test/helpers' // Test helpers
   ]
 }
