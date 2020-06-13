@@ -1,16 +1,16 @@
 'use strict'
 
-var assert = require('assert')
-var figures = require('figures')
+const assert = require('assert')
+const figures = require('figures')
 
-var actual = require('./').directories()
-var expected = actual.slice().sort()
+const actual = require('./').directories()
+const expected = actual.slice().sort()
 
-var pass = false
+let pass = false
 try {
-  assert.deepEqual(actual, expected)
+  assert.deepStrictEqual(actual, expected)
   pass = true
-} catch (err) {}
+} catch {}
 
 console[pass ? 'log' : 'error'](figures[pass ? 'tick' : 'cross'] + ' directories are sorted correctly')
 if (!pass) {
