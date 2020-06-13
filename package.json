@@ -2,12 +2,15 @@
   "name": "ignore-by-default",
   "version": "1.0.1",
   "description": "A list of directories you should ignore by default",
+  "engines": {
+    "node": ">=10 <11 || >=12 <13 || >=14"
+  },
   "main": "index.js",
   "files": [
     "index.js"
   ],
   "scripts": {
-    "test": "as-i-preach && node test.js"
+    "test": "standard && node test.js"
   },
   "repository": {
     "type": "git",
@@ -28,13 +31,7 @@
   },
   "homepage": "https://github.com/novemberborn/ignore-by-default#readme",
   "devDependencies": {
-    "@novemberborn/as-i-preach": "^5.0.0",
-    "figures": "^1.4.0"
-  },
-  "greenkeeper": {
-    "ignore": [
-      "@novemberborn/as-i-preach",
-      "figures"
-    ]
+    "figures": "^3.2.0",
+    "standard": "^14.3.4"
   }
 }
